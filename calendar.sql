@@ -6,7 +6,7 @@ CREATE TABLE user
     username varchar(20) unique,
     password varchar(20),
     email varchar(320),
-    created_date DATETIME,
+    registration_date DATETIME,
     modified_date DATETIME,
     PRIMARY KEY (id)
 );
