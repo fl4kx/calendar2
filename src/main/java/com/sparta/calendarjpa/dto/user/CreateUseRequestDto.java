@@ -3,17 +3,18 @@ package com.sparta.calendarjpa.dto.user;
 import lombok.Getter;
 
 @Getter
-public class CreateUserDto {
+public class CreateUseRequestDto {
 
-    private final String username;
+    private final String name;
 
     private final String email;
 
     private final String password;
 
-    public CreateUserDto(String username, String email, String password) {
-        this.username = username;
+    public CreateUseRequestDto(String name, String email, String password) {
+        this.name = name;
         this.email = email;
         this.password = password;
     }
+
 }
