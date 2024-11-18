@@ -1,6 +1,6 @@
 package com.sparta.calendarjpa.controller;
 
-import com.sparta.calendarjpa.dto.user.CreateUseRequestDto;
+import com.sparta.calendarjpa.dto.user.CreateUserRequestDto;
 import com.sparta.calendarjpa.dto.user.UpdateNameRequestDto;
 import com.sparta.calendarjpa.dto.user.UserResponseDto;
 import com.sparta.calendarjpa.service.UserService;
@@ -24,7 +24,7 @@ public class UserController {
     private final UserService userService;
 
     @PostMapping
-    public ResponseEntity<UserResponseDto> join(@RequestBody CreateUseRequestDto requestDto) {
+    public ResponseEntity<UserResponseDto> join(@RequestBody CreateUserRequestDto requestDto) {
 
         UserResponseDto userResponseDto = userService.save(
                 requestDto.getName(),

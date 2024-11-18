@@ -39,6 +39,4 @@ public class User extends BaseEntity {
         this.name = newName;
     }
 
-    public void deleteById(Long id) {
-    }
 }
