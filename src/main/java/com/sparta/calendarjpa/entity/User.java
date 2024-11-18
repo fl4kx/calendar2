@@ -34,4 +34,11 @@ public class User extends BaseEntity {
         this.password = password;
         this.email = email;
     }
+
+    public void updateName(String newName) {
+        this.name = newName;
+    }
+
+    public void deleteById(Long id) {
+    }
 }
