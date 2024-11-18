@@ -7,3 +7,4 @@ https://documenter.getpostman.com/view/39403184/2sAYBPnaS2#e4da3675-faa7-4454-9e
 
 ## ERD
 
+![ERD](https://github.com/user-attachments/assets/2fd7d0ec-6791-458b-8a99-4247a5d9bd6d)
